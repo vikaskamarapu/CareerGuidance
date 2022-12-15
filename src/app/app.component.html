@@ -1,0 +1,50 @@
+<div class="bg-cool">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light h-100">
+    <div class="container-fluid">
+      <a class="navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" height="35px" width="35px" fill="#F9CA07"
+          viewBox="0 0 576 512">
+          <path
+            d="M48 0C21.5 0 0 21.5 0 48V256H144c8.8 0 16 7.2 16 16s-7.2 16-16 16H0v64H144c8.8 0 16 7.2 16 16s-7.2 16-16 16H0v80c0 26.5 21.5 48 48 48H265.9c-6.3-10.2-9.9-22.2-9.9-35.1c0-46.9 25.8-87.8 64-109.2V271.8 48c0-26.5-21.5-48-48-48H48zM152 64h16c8.8 0 16 7.2 16 16v24h24c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16H184v24c0 8.8-7.2 16-16 16H152c-8.8 0-16-7.2-16-16V152H112c-8.8 0-16-7.2-16-16V120c0-8.8 7.2-16 16-16h24V80c0-8.8 7.2-16 16-16zM512 272c0-44.2-35.8-80-80-80s-80 35.8-80 80s35.8 80 80 80s80-35.8 80-80zM288 477.1c0 19.3 15.6 34.9 34.9 34.9H541.1c19.3 0 34.9-15.6 34.9-34.9c0-51.4-41.7-93.1-93.1-93.1H381.1c-51.4 0-93.1 41.7-93.1 93.1z" />
+        </svg>
+        Career Guidance
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav gap-4 ms-3">
+
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" routerLink="home"
+              routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" routerLink="courses"
+              routerLinkActive="active">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" routerLink="exams"
+              routerLinkActive="active">Exams</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" routerLink="news"
+              routerLinkActive="active">AboutUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" routerLink="faq"
+              routerLinkActive="active">FAQ's</a>
+          </li>
+        </ul>
+        <!-- Search form -->
+        <form class="d-flex input-group w-auto">
+          <input type="search" class="form-control" placeholder="Type query" aria-label="Search" />
+          <button class="btn btn-outline-primary" type="button">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
